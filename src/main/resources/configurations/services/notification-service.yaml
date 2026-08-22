@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    problemdetails:
+      enabled: true
+
+  mongodb:
+    host: localhost
+    port: 27080
+    database: fleetops_notifications
+    username: root
+    password: mongodb
+    authentication-database: admin
+
+server:
+  port: 8002
