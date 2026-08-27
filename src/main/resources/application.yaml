@@ -5,6 +5,9 @@ spring:
   cloud:
     config:
       server:
+        git:
+          uri: git@github.com:chanuthdewhan/fleetops-config-repo.git
+          search-paths: platform,services
         native:
           search-locations:
             - classpath:/configurations
@@ -13,4 +16,5 @@ spring:
 
 server:
   port: 9000
+
 
